@@ -6,6 +6,13 @@ body {
     font-family: Helvetica;
 }
 
+.visit-vilufushi {
+    color: white;
+    font-size: 24px;
+    margin-left: 0px;
+}
+
+
 a {
     text-decoration: none;
     color: rgb(20, 245, 245);
@@ -28,6 +35,8 @@ ul {
 
 .logo-image {
     order: -1;
+    width: 35px;
+    height: 35px;
 }
 
 .header-logo {
@@ -40,24 +49,49 @@ ul {
     padding-left: 150px;
     padding-right: 150px;
     padding-bottom: 70px;
+    display: flex;
+    flex-direction: column;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
 }
 
 .top-button {
     border-radius: 7px;
     border: none;
-    background-color: aquamarine;
+    background-color: rgb(17, 220, 47);
     font-size: 35px;
     border-width: 2px;
     padding-left: 10px;
     padding-right: 10px;
+    display: flex;
+    align-self: center;
 }
 
 .top-button:hover {
     background-color: grey;
 }
 
-.island {
+.sudo {
+    color: black;
+}
+
+.sudo:visited {
+    color: black;
+    background-color: rgb(17, 220, 47);
+}
+
+.hero-island-1 {
     order: -1;
+    width: 250px;
+    height: 150px;
+}
+
+.hero-island-2 {
+    width: 220px;
+    height: 150px;
 }
 
 .hero {
@@ -65,6 +99,21 @@ ul {
     align-items: center;
     justify-content: space-between;
     gap: 50px;
+}
+
+.hero-main {
+    color: white;
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 15px;
+    align-self: center;
+}
+
+.hero-text {
+    color: white;
+    margin-top: 0px;
+    font-size: 30px;
+    text-align: justify;
 }
 
 .sec-2 {
@@ -79,6 +128,11 @@ ul {
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+}
+
+.sec2-image1,.sec2-image2,.sec2-image3,.sec2-image4 {
+    width: 300px;
+    height: 200px;
 }
 
 .info-images {
@@ -106,9 +160,36 @@ ul {
     background-color: rgb(240, 248, 248);
 }
 
+.sec3-image {
+    width: 500px;
+    height: 300px;
+    margin-bottom: 60px;
+}
+
+.nature-quote {
+    font-size: 40px;
+    font-family:'Courier New', Courier, monospace; 
+    text-align: center;
+    font-weight: bold;
+}
+
+.einstein {
+    font-size: 40px;
+    font-family:'Courier New', Courier, monospace; 
+    font-weight: bold;
+}
+
 .sec-4 {
     padding: 150px;
     background-color: rgb(236, 236, 236);
+}
+
+.sec4-text1 {
+    margin-bottom: 0px;
+}
+
+.sec4-text2 {
+    margin-top: 4px; margin-bottom: 20px;
 }
 
 .centered {
