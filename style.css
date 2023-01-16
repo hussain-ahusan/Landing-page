@@ -8,7 +8,8 @@ body {
 
 .visit-vilufushi {
     color: white;
-    font-size: 24px;
+    font-size: 40px;
+    font-weight: bold;
     margin-left: 0px;
 }
 
@@ -16,7 +17,7 @@ body {
 a {
     text-decoration: none;
     color: rgb(20, 245, 245);
-    font-size: 25px;
+    font-size: 40px;
 }
 
 ul {
@@ -35,8 +36,8 @@ ul {
 
 .logo-image {
     order: -1;
-    width: 35px;
-    height: 35px;
+    width: 45px;
+    height: 45px;
 }
 
 .header-logo {
@@ -59,45 +60,28 @@ ul {
 }
 
 .top-button {
-    border-radius: 7px;
+    border-radius: 15px;
     border: none;
     background-color: rgb(17, 220, 47);
-    font-size: 35px;
     border-width: 2px;
-    padding-left: 10px;
-    padding-right: 10px;
     display: flex;
+    align-items: center;
+    justify-content: center;
     align-self: center;
+    height: 80px;
+}
+
+.sign-up {
+    color: white;
+    font-weight: bold;
+}
+
+.sign-up:visited {
+    text-decoration: none;
 }
 
 .top-button:hover {
     background-color: grey;
-}
-
-.sudo {
-    color: black;
-}
-
-.sudo:visited {
-    color: black;
-    background-color: rgb(17, 220, 47);
-}
-
-.hero-images {
-    display: flex;
-    justify-content: space-between;
-    gap: 150px;
-    margin-top: 20px;
-}
-
-.hero-island-1 {
-    width: 250px;
-    height: 150px;
-}
-
-.hero-island-2 {
-    width: 250px;
-    height: 150px;
 }
 
 .hero {
@@ -110,7 +94,7 @@ ul {
 
 .hero-main {
     color: white;
-    font-size: 48px;
+    font-size: 120px;
     font-weight: 800;
     margin-bottom: 15px;
     margin-top: 0px;
@@ -120,9 +104,8 @@ ul {
 .hero-text {
     color: white;
     margin-top: 0px;
-    font-size: 30px;
+    font-size: 60px;
     text-align: justify;
-    width: 1100px;
 }
 
 .sec-2 {
@@ -145,9 +128,13 @@ ul {
     font-weight: bolder;
     font-size: 70px;
     text-align: center;
+    height: 170px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
-.sec2-image1,.sec2-image2,.sec2-image3,.sec2-image4 {
+.sec2-image1,.sec2-image2,.sec2-image3,.sec2-image4,.sec-2-image5,.sec-2-image6 {
     width: 300px;
     height: 200px;
 }
