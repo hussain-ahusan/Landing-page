@@ -140,6 +140,13 @@ ul {
     flex-wrap: wrap;
 }
 
+.sec-2-main {
+    background-color: rgb(29, 247, 211);
+    font-weight: bolder;
+    font-size: 70px;
+    text-align: center;
+}
+
 .sec2-image1,.sec2-image2,.sec2-image3,.sec2-image4 {
     width: 300px;
     height: 200px;
@@ -148,15 +155,28 @@ ul {
 .info-images {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 100px;
-    margin-top: 30px;
+    padding: 35px;
+    margin: 50px;
 }
 
-.one, .two, .three, .four {
+.card {
     display: flex;
     flex-direction: column;
     align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.2s;
+    padding: 30px;
+    margin: 40px;
+    width: 500px;
+}
+
+.card:hover {
+    box-shadow: 0 8px 30px 0 rgba(0,0,0,0.2);
+}
+
+.text {
+    text-align: start;
+    width: 300px;
 }
 
 .sec-3 {
