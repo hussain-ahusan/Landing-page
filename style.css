@@ -83,19 +83,26 @@ ul {
     background-color: rgb(17, 220, 47);
 }
 
+.hero-images {
+    display: flex;
+    justify-content: space-between;
+    gap: 150px;
+    margin-top: 20px;
+}
+
 .hero-island-1 {
-    order: -1;
     width: 250px;
     height: 150px;
 }
 
 .hero-island-2 {
-    width: 220px;
+    width: 250px;
     height: 150px;
 }
 
 .hero {
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: space-between;
     gap: 50px;
@@ -106,6 +113,7 @@ ul {
     font-size: 48px;
     font-weight: 800;
     margin-bottom: 15px;
+    margin-top: 0px;
     align-self: center;
 }
 
