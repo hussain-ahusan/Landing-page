@@ -14,10 +14,22 @@ body {
 }
 
 
-a {
+.nav-button {
     text-decoration: none;
     color: rgb(20, 245, 245);
     font-size: 40px;
+    border: 5px solid rgb(7, 0, 224);
+    border-radius: 40px;
+    padding: 10px;
+
+}
+
+.nav-button:hover {
+    background-color: grey;
+}
+
+a:visited {
+    text-decoration: none;
 }
 
 ul {
@@ -43,6 +55,10 @@ ul {
 .header-logo {
     display: flex;
     align-items: center;
+    border: 5px dashed rgb(255, 255, 255);
+    border-radius: 60px;
+    height: 65px;
+    padding: 20px;
 }
 
 .top {
@@ -60,20 +76,23 @@ ul {
 }
 
 .top-button {
-    border-radius: 15px;
+    border-radius: 40px;
     border: none;
-    background-color: rgb(17, 220, 47);
-    border-width: 2px;
+    background-color: rgb(17, 44, 220);
     display: flex;
     align-items: center;
     justify-content: center;
     align-self: center;
-    height: 80px;
+    height: 90px;
+    width: 200px;
 }
 
 .sign-up {
     color: white;
+    border: none;
     font-weight: bold;
+    text-decoration: none;
+    font-size: 30px;
 }
 
 .sign-up:visited {
@@ -124,7 +143,7 @@ ul {
 }
 
 .sec-2-main {
-    background-color: rgb(29, 247, 211);
+    background-color: rgb(156, 174, 172);
     font-weight: bolder;
     font-size: 70px;
     text-align: center;
@@ -270,6 +289,10 @@ ul {
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+}
+
+.icon {
+    border: none;
 }
 
 .footer-button {
