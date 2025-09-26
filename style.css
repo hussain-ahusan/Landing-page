@@ -10,6 +10,7 @@ body {
     flex-wrap: wrap;
     margin: 0px;
     font-family: Helvetica;
+    width: clamp(200px 80vw 1200px);
 }
 
 .visit-vilufushi {
